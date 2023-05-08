@@ -1,0 +1,33 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "prod": "npm run build && npm run generate"
+  },
+  "devDependencies": {
+    "@iconify-json/mdi": "^1.1.50",
+    "@nuxtjs/google-fonts": "^3.0.0",
+    "@types/node": "^18",
+    "@unocss/preset-icons": "^0.51.12",
+    "@unocss/transformer-directives": "^0.51.12",
+    "nuxt": "^3.4.3"
+  },
+  "dependencies": {
+    "@firebase/util": "^1.9.3",
+    "@floating-ui/vue": "^1.0.0",
+    "@pinia/nuxt": "^0.4.9",
+    "@unocss/nuxt": "^0.51.12",
+    "firebase": "^9.21.0",
+    "firebase-admin": "^11.8.0",
+    "pinia": "^2.0.35",
+    "vue-toast-notification": "3.0",
+    "vue3-emoji-picker": "^1.1.7",
+    "yup": "^1.1.1",
+    "yup-phone-lite": "^2.0.1"
+  }
+}
