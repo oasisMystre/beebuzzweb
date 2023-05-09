@@ -21,6 +21,10 @@ body {
     font-family: "Albert Sans";
 }
 
+button:focus, button:hover {
+    --at-apply: outline-none;
+}
+
 input {
     --at-apply: outline-none bg-transparent;
 }
